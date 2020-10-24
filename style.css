@@ -1,0 +1,248 @@
+body{
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.34;
+}
+.fb-top{
+	background: #3B5998;
+	padding: 10px 0;
+}
+.container{
+	width: 75%;
+	margin: auto;
+	max-width:1100px;
+}
+.logo-area{
+	width: 30%;
+	float: left;
+}
+.logo-area img{
+	margin-top: 20px;
+}
+.login-area{
+	width: 70%;
+	overflow: hidden;
+}
+.login-area form{
+	float: right;
+}
+.fb-top label{
+	display:block;
+	font-size: 12px;
+	color: #fff;
+	margin-bottom: 6px;
+}
+.fb-top input{
+	display:block;
+	border: 1px solid #000;
+	padding: 2px 5px;
+	box-sizing: border-box;
+}
+.user-area{
+	float:  left;
+	margin-right: 15px;
+}
+.pass-area{
+	float: left;
+	margin-right: 15px;
+}
+.pass-area a{
+	color: #9cb4d8;
+	text-decoration: none;
+	font-size: 12px;
+}
+.pass-area a:hover{
+	text-decoration: underline;
+}
+.login-btn{
+	float: left;
+}
+.login-btn input[type="submit"]{
+	background: #4267b2;
+	border: 1px solid #29487d;
+	color: #fff;
+	font-weight: 600;
+	margin-top: 20px;
+}
+.login-btn input[type="submit"]:hover{
+	cursor: pointer;
+	background-color: #365899;
+}
+/* Account Area Design */
+.acc-area{
+	background: linear-gradient(#ffffff, #D6DBEA);
+	overflow: hidden;
+}
+.left-area{
+	width: 60%;
+	float: left;
+}
+.left-area img{
+	width: 100%;
+}
+.right-area{
+	width: 40%;
+	float: left;
+}
+.left-area h3{
+	color: #0e385f;
+	font-size: 20px;
+	line-height: 29px;
+	margin-top: 40px;
+	width: 80%;
+}
+.right-area h1{
+	color: #333;
+	font-size: 38px;
+	line-height: 1.34;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.right-area h4{
+	color: #1d2129;
+	font-size: 19px;
+	font-weight: 500;
+	margin: 0;
+	margin-bottom: 20px;
+}
+.right-area form input[type="text"],
+.right-area form input[type="password"]{
+	width: 100%;
+	border: 1px solid #bdc7d8;
+	font-size: 18px;
+	padding: 8px 10px;
+	border-radius: 5px;
+	margin: 10px 0;
+	box-sizing: border-box;
+}
+.right-area .half input[type="text"]:nth-child(1){
+	width: 48%;
+	float: left;
+	margin-right: 4%;
+}
+.right-area .half input[type="text"]:nth-child(2){
+	width: 48%;
+	float: left;
+}
+.bday{
+	overflow: hidden;
+}
+.bday h4{
+	margin-bottom: 5px;
+}
+.bselect{
+	overflow: hidden;
+	width: 200px;
+	float: left;
+}
+.bselect select{
+	border: 1px solid #bdc7d8;
+	padding: 5px;
+	float: left;
+}
+.blink{
+	width: 50%;
+	float: left;
+}
+.blink a{
+	color: #365899;
+	font-size: 11px;
+	margin: 0;
+    display: block;
+	width: 80%;
+	text-decoration: none;
+}
+.blink a:hover{
+	text-decoration: underline;
+}
+.gender{
+	margin-top: 20px;
+}
+.gender label{
+	font-weight: 600;
+	font-size: 18px;
+	color: #1d2129;
+}
+.para p{
+	color: #777;
+	font-size: 11px;
+	width: 75%;
+}
+.para p a{
+	color:#365899;
+	text-decoration: none;
+}
+.para p a:hover{
+	text-decoration:underline;
+}
+.acc-area .submit-btn input[type="submit"]{
+	background: linear-gradient(#67ae55, #578843);
+	color: #fff;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	border-width: 1px;
+	border-style: solid;
+	padding: 8px 20px;
+	border-radius: 5px;
+	font-size: 19px;
+	font-weight: 500;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	box-shadow: inset 0 1px 1px #a4e388;
+}
+.submit-btn input[type="submit"]:hover{
+	cursor: pointer;
+	background: linear-gradient(#578843, #67ae55);
+}
+.right-area h5{
+	color: #666;
+	font-size: 13px;
+	padding-top: 10px;
+	font-weight: 600;
+}
+.right-area h5 a{
+	color: #365899;
+	text-decoration: none;
+}
+.right-area h5 a:hover{
+	text-decoration:underline;
+}
+/* Footer area design */
+.fb-footer{
+	padding-top: 30px;
+}
+.top-area ul,
+.middle-area ul{
+	margin: 0;
+	padding: 0;
+}
+.top-area ul li,
+.middle-area ul li{
+	list-style: none;
+	display:inline-block;
+}
+.top-area ul li a,
+.middle-area ul li a{
+	color: #365899;
+	font-size: 12px;
+	text-decoration: none;
+	margin-right: 15px;
+}
+.top-area ul .active a{
+	color: #333;
+}
+.middle-area ul{
+	width: 70%;
+}
+.bottom-area h5{
+	font-weight: 400;
+}
+.fb-footer hr{
+	border: 0;
+	border-top: 1px solid #DDDFE2;
+}
+.top-area ul li:last-child a{
+	background: #E9EBEE;
+	border: 1px solid #777;
+	padding: 0px 8px;
+	text-decoration: none;
+	font-size: 20px;
+}
